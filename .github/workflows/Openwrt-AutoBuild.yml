@@ -8,9 +8,9 @@ on:
       - master
     paths:
       - 'start'
-  schedule:
+ # schedule:
     - cron: 0 20 */7 * *
-  watch:
+#  watch:
     types: [started]
 
 env:
